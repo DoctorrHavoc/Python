@@ -1,2 +1,2 @@
 # Python
-# I will import my learning exercises here.
+I will import my learning exercises here.
