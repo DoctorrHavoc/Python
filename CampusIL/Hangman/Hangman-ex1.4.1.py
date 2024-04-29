@@ -1,7 +1,5 @@
 import random
-x = 5
 print("Welcome to the game Hangman")
-
 print(r"""  _    _                                         
  | |  | |                                        
  | |__| | __ _ _ __   __ _ _ __ ___   __ _ _ __  
