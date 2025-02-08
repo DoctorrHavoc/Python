@@ -1,7 +1,11 @@
 def distance(num1, num2, num3):
-    if abs(num1 - num2) <= 1:
-        print(abs(num3-num1) >= 2 and abs(num3-num2) >= 2)
+    close_diff = 1
+    far_diff = 2
 
+    if abs(num2-num1) <= close_diff and abs(num3-num1) >= far_diff and abs(num3-num2) >= far_diff:
+        return True
 
-distance(1, 2, 10)
-distance(4, 5, 3)
+    if abs(num3-num1) <= close_diff and abs(num2-num1) >= far_diff and abs(num2-num3) >= far_diff:
+        return True
+
+    return False
